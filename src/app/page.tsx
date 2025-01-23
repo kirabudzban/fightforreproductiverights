@@ -1,5 +1,14 @@
 import Image from "next/image";
 
+{/* <Image
+src="/nextjs-github-pages/vercel.svg"
+alt="Vercel Logo"
+className={styles.vercelLogo}
+width={100}
+height={24}
+priority
+/> */}
+
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
